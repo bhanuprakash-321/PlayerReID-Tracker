@@ -1,6 +1,6 @@
 #  Player Re-ID Tracker
 
-This project delivers an **multiplayer tracking system** that excels in dynamic sports environments, such as soccer, basketball, or hockey. It fuses **YOLOv11** for lightning-fast detection, **BoT-SORT** for reliable multi-object tracking, and **OSNet Re-Identification** to maintain consistent player identities — even through occlusions, re-entries, and frame exits.
+This project delivers an **multiplayer tracking system** that excels in dynamic sports environments, such as soccer, basketball, or hockey. It fuses **YOLOv11(best.pt)** for lightning-fast detection, **BoT-SORT** for reliable multi-object tracking, and **OSNet Re-Identification** to maintain consistent player identities — even through occlusions, re-entries, and frame exits.
 
 Each player is analyzed using appearance-based deep features, matched against memory, and color-tagged based on **HSV-based jersey classification** (e.g., red or sky blue). Instead of messy bounding boxes, the system uses **minimal, elegant rings around players' feet**, colored by team and labeled with persistent IDs. This results in a clean, professional-grade visual output that enhances understanding, storytelling, and analytics.
 
