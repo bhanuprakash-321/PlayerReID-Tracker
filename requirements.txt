@@ -1,0 +1,10 @@
+ultralytics
+torchreid
+opencv-python
+numpy==1.26.4
+ultralytics
+deep-sort-realtime
+torchreid
+opencv-python
+motmetrics
+scikit-learn
