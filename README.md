@@ -65,7 +65,7 @@ pip install scikit-learn motmetrics torchreid
 ```
 ---
 
-## ▶️ Run Tracking
+## Run Tracking
 
 ```bash
 python main.py
@@ -73,13 +73,13 @@ python main.py
 
 This processes:
 
-- 🎞️ **Input**: `assets/15sec_input_720p.mp4`  
-- 🎥 **Output**: `outputs/reid_output.mp4`  
-- 📝 **Track Log**: `outputs/reid_track.txt`
+- **Input**: `assets/15sec_input_720p.mp4`  
+- **Output**: `outputs/reid_output.mp4`  
+- **Track Log**: `outputs/reid_track.txt`
 
 ---
 
-## 📊 Evaluate Tracking
+## Evaluate Tracking
 
 ```bash
 python evaluation.py
